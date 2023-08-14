@@ -45,5 +45,6 @@ for(const i of arrTest){
 //반복문 (while)
 let iTest = 0;
 while(iTest<10){
-    console.log(i++);
+    console.log(iTest++);
 }
+
