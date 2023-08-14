@@ -31,5 +31,19 @@ switch(Lnumber % 2){
 }
 
 //반복문 (for)
-
+for(let i=0;i<10;i++){
+    if(i===7){
+        //break;
+        continue;
+    }
+    console.log(i);
+}
+const arrTest = [1, 2, 3];
+for(const i of arrTest){
+    console.log(i);
+}
 //반복문 (while)
+let iTest = 0;
+while(iTest<10){
+    console.log(i++);
+}
