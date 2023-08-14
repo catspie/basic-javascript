@@ -104,6 +104,5 @@ const numbers222 = [4, 5, 6];
 const newNumbers = [...numbers111, ...numbers222];
 console.log(newNumbers);
 
-
 const phy = [numbers111, numbers222];
 console.log(phy);
